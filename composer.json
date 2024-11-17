@@ -1,0 +1,19 @@
+{
+    "name": "resturendiana/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Restu Rendiana",
+            "email": "rstrndn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "resturendiana\\belajar\\": "src/"
+        }
+    },
+    "require": {
+        "php" : ">8.0"
+    }
+}
